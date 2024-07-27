@@ -1,8 +1,10 @@
-Snrkshn AgriWaste
-
+![image](https://github.com/user-attachments/assets/c3191bc9-8c44-47f2-9cb2-f4df0daf0ab0)Snrkshn AgriWaste
 
 Overview
-Snrkshn is a web based platform which helps farmers to generte value from their agriculture waste via our Tech based platforms,AI solutions.We help farmers to educate,aware and able to generate value from their agri-waste.Our AI based bins,Chatbots,tech platform empower farmers to connect with potential buyers,learn to create revenue from it,we also helps bio-gas plants,startups,business to  ensure ease of access to raw materials availability while fostering heaalthy relationships with farmers.
+
+
+Snrkshn is a web based ecosystem which helps farmers to generate value from their agriculture waste via our Tech based platforms, AI solutions. We help farmers to educate, aware and able to generate value from their agri-waste.Our AI based bins,Chatbots,tech platform empower farmers to connect with potential buyers, learn to create revenue from it, we also helps bio-gas plants,startups,business to ensure ease of access to raw materials availability while fostering healthy relationships with farmers.
+
 
 Features
 Backend:
@@ -45,8 +47,14 @@ AWS - Scalable cloud hosting
 AI Integration:
 
 TensorFlow/PyTorch - AI-based waste analysis
+
+
 ###############################################Installation##########################################################
+
+
 Clone the Repository
+
+
 bash
 Copy code
 git clone https://github.com/hardik-vasudev/snrkshn-agriwaste.git
@@ -55,29 +63,32 @@ Frontend Setup
 Navigate to the snrkshn-frontend directory and install dependencies:
 
 bash
+
 Copy code
 cd snrkshn-frontend
 npm install
 Backend Setup
 Navigate to the snrkshn-backend directory and install dependencies:
 
-bash
-Copy code
+
+Copy code##
 cd ../snrkshn-backend
 npm install
 Usage
 Start the Backend Server:
 
-bash
-Copy code
+
+Copy code and paste ###
 cd snrkshn-backend
 npm start
 Start the Frontend Application:
 
-bash
-Copy code
+
+Copy code####
 cd ../snrkshn-frontend
 npm start
 Access the Application:
+
+
 
 Open your web browser and navigate to http://localhost:3000 to view the frontend. The backend server will be running at http://localhost:5000.
