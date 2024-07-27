@@ -1,0 +1,28 @@
+const express = require('express');
+const router = express.Router();
+const User = require('../models/userModel');
+
+// Example endpoint to get profile data
+router.get('/profile', async (req, res) => {
+  try {
+    // Assume req.user.id contains the ID of the user from authentication middleware
+    // Replace this with actual logic for authentication and obtaining user ID
+    const userId = req.user.id; 
+
+    // Fetch user profile data by ID
+    const profileData = await User.findById(userId);
+
+    // Check if profile data exists
+    if (!profileData) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    // Send the profile data as JSON
+    res.json(profileData);
+  } catch (error) {
+    // Handle errors and send a response
+    res.status(500).json({ error: error.message });
+  }
+});
+
+module.exports = router;
