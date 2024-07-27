@@ -1,4 +1,6 @@
 Snrkshn AgriWaste
+
+
 Overview
 Snrkshn is a web based platform which helps farmers to generte value from their agriculture waste via our Tech based platforms,AI solutions.We help farmers to educate,aware and able to generate value from their agri-waste.Our AI based bins,Chatbots,tech platform empower farmers to connect with potential buyers,learn to create revenue from it,we also helps bio-gas plants,startups,business to  ensure ease of access to raw materials availability while fostering heaalthy relationships with farmers.
 
